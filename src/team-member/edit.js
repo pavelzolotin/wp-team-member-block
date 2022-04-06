@@ -41,6 +41,7 @@ import { restrictToHorizontalAxis } from '@dnd-kit/modifiers';
 function Edit({
 	attributes,
 	setAttributes,
+    context,
 	noticeOperations,
 	noticeUI,
 	isSelected,
@@ -264,6 +265,7 @@ function Edit({
 					disableMediaButtons={url}
 					notices={noticeUI}
 				/>
+                {context['block-course/team-members-columns']};
 				<RichText
 					ref={titleRef}
 					placeholder={__('Member Name', 'team-member')}
