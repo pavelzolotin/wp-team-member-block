@@ -12,12 +12,12 @@
 		"align": ["wide", "full"]
 	},
 	"textdomain": "team-members",
-	"editorScript": "file:./index.js",
-	"editorStyle": "file:./index.css",
-	"style": "file:./style-index.css",
-    "providesContext": {
-        "block-course/team-members-columns": "columns"
-    },
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css",
+	"providesContext": {
+		"block-course/team-members-columns": "columns"
+	},
 	"attributes": {
 		"columns": {
 			"type": "number",
